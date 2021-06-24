@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class PointsController {
 
+private PointsCache points = PointsCache.getInstance();
+
     @PostMapping("/points")
     public String processPoints(@RequestBody String points){
         //System.out.println("payload : "+ points);
