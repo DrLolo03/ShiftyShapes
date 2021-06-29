@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"edu.escuelaing.arsw","l":"Board"},{"p":"edu.escuelaing.arsw.Cache","l":"JsonInterpreter"},{"p":"edu.escuelaing.arsw.Cache","l":"PointsCache"},{"p":"edu.escuelaing.arsw.Controller","l":"PointsController"}];updateSearchResults();
