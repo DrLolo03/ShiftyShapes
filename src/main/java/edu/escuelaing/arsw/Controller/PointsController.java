@@ -49,5 +49,11 @@ private PointsCache cache = PointsCache.getInstance();
     public void clearPoints(){
         cache.clear();
     }
+    static int getPort() {
+        if (System.getenv("PORT") != null) {
+            return Integer.parseInt(System.getenv("PORT"));
+        }
+        return 35000;
+    }
 
 }
