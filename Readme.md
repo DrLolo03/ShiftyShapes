@@ -15,7 +15,7 @@
 # Diagrama
 >![diagrama](img/diagrama.PNG)
 # WhiteBoard
-En este ejercicio se modifico el tablero realizado en clase para que pueda resivir la interaccion de diferentes usuarios de manera notable y que se pueda borrar el contenido de este.
+En este ejercicio se modifico el tablero realizado en clase utilizando springboot y js de las librerias p5 para que pueda resivir la interaccion de diferentes usuarios de manera notable y que se pueda borrar el contenido de este.
 >![local](img/local.PNG)
 > - Para correr el programa se usa
 >  `java -cp "./target/classes" edu.escuelaing.arsw.Board`
@@ -26,7 +26,9 @@ En este ejercicio se modifico el tablero realizado en clase para que pueda resiv
 
 
 # JavaDoc
+> Muestras de la documentacion:
 > ![doc](img/doc.PNG)
+> La documentacion javadoc se encuentra en img/apidocs en el archivo index
 
 # Licencia
 Este proyecto esta bajo Licencia de uso libre.

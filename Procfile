@@ -1,1 +1,1 @@
-web: java -cp target/classes:target/dependency/* edu.escuelaing.arsw.Board
+web: java -Dserver.port=$PORT  target/classes:target/dependency/* edu.escuelaing.arsw.Board
