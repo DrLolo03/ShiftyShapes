@@ -38,7 +38,7 @@ private PointsCache cache = PointsCache.getInstance();
         //System.out.println(points.getPoints());
         Gson gson= new Gson();
         String json= gson.toJson(currentData);
-        //System.out.println("4: " +json);
+        System.out.println("puntos: " +json);
         return json;
     }
 
@@ -49,7 +49,15 @@ private PointsCache cache = PointsCache.getInstance();
     public void clearPoints(){
         cache.clear();
     }
-    
+
+    /**
+     * Funcion cuadrado
+   
+    @PostMapping("/square")
+    public void SquearePoints(){
+        cache.clear();
+    }
+      */
     static int getPort() {
         if (System.getenv("PORT") != null) {
             return Integer.parseInt(System.getenv("PORT"));

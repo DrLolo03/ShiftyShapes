@@ -38,6 +38,5 @@ public class PointsCache {
     public void clear(){
         points.clear();
     }
-
     
 }
